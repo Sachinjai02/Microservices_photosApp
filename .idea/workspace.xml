@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f8b1a206-7fc7-4315-a6bc-cba59327284e" name="Changes" comment="Making the ports dynamic and assigning eureka instance id random/based on command line parameter">
+    <list default="true" id="f8b1a206-7fc7-4315-a6bc-cba59327284e" name="Changes" comment="Adding code to view which port the application is running on - property &quot;local.server.port&quot;">
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AccountManagementService/src/main/java/com/study/accountmanagement/controller/AccountsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/AccountManagementService/src/main/java/com/study/accountmanagement/controller/AccountsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UsersService/src/main/java/com/study/usersservice/controllers/UsersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/UsersService/src/main/java/com/study/usersservice/controllers/UsersController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UsersService/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/UsersService/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +30,13 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="2JWzPs6O5xvEIhC7MAPVcMctMl4" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -48,7 +54,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "18",
-    "last_opened_file_path": "C:/Studies/Microservices_photoApp",
+    "last_opened_file_path": "C:/Studies/Microservices_photoApp/SpringCloudAPIGateway/pom.xml",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
@@ -56,7 +62,7 @@
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
 }]]></component>
-  <component name="RunManager" selected="Spring Boot.UsersServiceApplication">
+  <component name="RunManager" selected="Spring Boot.SpringCloudApiGatewayApplication">
     <configuration name="AccountManagementApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
       <module name="AccountManagementService" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.study.accountmanagement.AccountManagementApplication" />
@@ -67,6 +73,13 @@
     <configuration name="PhotoAppDiscoveryServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="PhotoAppDiscoveryServer" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.study.photoappdiscoveryserver.PhotoAppDiscoveryServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudApiGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="SpringCloudAPIGateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.study.springcloudapigateway.SpringCloudApiGatewayApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -88,7 +101,7 @@
       <option name="presentableId" value="Default" />
       <updated>1672208643810</updated>
       <workItem from="1672208647219" duration="2663000" />
-      <workItem from="1672248147914" duration="10566000" />
+      <workItem from="1672248147914" duration="13088000" />
     </task>
     <task id="LOCAL-00001" summary="started a container project to hold and learn different microservices patterns">
       <created>1672215621017</created>
@@ -111,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672302716305</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Adding code to view which port the application is running on - property &quot;local.server.port&quot;">
+      <created>1672303662241</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1672303662241</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,6 +152,7 @@
     <MESSAGE value="started a container project to hold and learn different microservices patterns" />
     <MESSAGE value="adding UsersService and AccountManagementService Microservices as Eureka clients" />
     <MESSAGE value="Making the ports dynamic and assigning eureka instance id random/based on command line parameter" />
-    <option name="LAST_COMMIT_MESSAGE" value="Making the ports dynamic and assigning eureka instance id random/based on command line parameter" />
+    <MESSAGE value="Adding code to view which port the application is running on - property &quot;local.server.port&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding code to view which port the application is running on - property &quot;local.server.port&quot;" />
   </component>
 </project>

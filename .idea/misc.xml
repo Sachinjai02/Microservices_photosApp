@@ -8,6 +8,8 @@
         <option value="$PROJECT_DIR$/PhotoAppDiscoveryServer/pom.xml" />
         <option value="$PROJECT_DIR$/UsersService/pom.xml" />
         <option value="$PROJECT_DIR$/accountManagement/pom.xml" />
+        <option value="$PROJECT_DIR$/AccountManagementService/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringCloudAPIGateway/pom.xml" />
       </list>
     </option>
   </component>

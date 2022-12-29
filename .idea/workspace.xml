@@ -4,21 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f8b1a206-7fc7-4315-a6bc-cba59327284e" name="Changes" comment="started a container project to hold and learn different microservices patterns">
-      <change afterPath="$PROJECT_DIR$/AccountManagementService/src/main/java/com/study/accountmanagement/controller/AccountsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UsersService/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UsersService/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UsersService/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UsersService/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UsersService/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UsersService/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UsersService/src/main/java/com/study/usersservice/UsersServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UsersService/src/main/java/com/study/usersservice/controllers/UsersController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UsersService/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UsersService/src/test/java/com/study/usersservice/UsersServiceApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="f8b1a206-7fc7-4315-a6bc-cba59327284e" name="Changes" comment="adding UsersService and AccountManagementService Microservices as Eureka clients">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AccountManagementService/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/AccountManagementService/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UsersService/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/UsersService/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,14 +48,15 @@
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "18",
     "last_opened_file_path": "C:/Studies/Microservices_photoApp",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
 }]]></component>
-  <component name="RunManager" selected="Spring Boot.AccountManagementApplication">
-    <configuration name="AccountManagementApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+  <component name="RunManager" selected="Spring Boot.UsersServiceApplication">
+    <configuration name="AccountManagementApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
       <module name="AccountManagementService" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.study.accountmanagement.AccountManagementApplication" />
       <method v="2">
@@ -97,7 +87,7 @@
       <option name="presentableId" value="Default" />
       <updated>1672208643810</updated>
       <workItem from="1672208647219" duration="2663000" />
-      <workItem from="1672248147914" duration="4540000" />
+      <workItem from="1672248147914" duration="9630000" />
     </task>
     <task id="LOCAL-00001" summary="started a container project to hold and learn different microservices patterns">
       <created>1672215621017</created>
@@ -106,7 +96,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672215621017</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="adding UsersService and AccountManagementService Microservices as Eureka clients">
+      <created>1672293194543</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1672293194543</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,6 +122,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="started a container project to hold and learn different microservices patterns" />
-    <option name="LAST_COMMIT_MESSAGE" value="started a container project to hold and learn different microservices patterns" />
+    <MESSAGE value="adding UsersService and AccountManagementService Microservices as Eureka clients" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding UsersService and AccountManagementService Microservices as Eureka clients" />
   </component>
 </project>

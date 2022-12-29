@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f8b1a206-7fc7-4315-a6bc-cba59327284e" name="Changes" comment="Adding code to view which port the application is running on - property &quot;local.server.port&quot;">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="f8b1a206-7fc7-4315-a6bc-cba59327284e" name="Changes" comment="adding spring cloud API Gateway app - with spring cloud gateway and spring cloud load balancer dependencies (spring reactive starter webflux, eureka client too!)">
+      <change beforePath="$PROJECT_DIR$/SpringCloudAPIGateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloudAPIGateway/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +60,7 @@
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
 }]]></component>
-  <component name="RunManager" selected="Spring Boot.SpringCloudApiGatewayApplication">
+  <component name="RunManager" selected="Spring Boot.AccountManagementApplication">
     <configuration name="AccountManagementApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
       <module name="AccountManagementService" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.study.accountmanagement.AccountManagementApplication" />
@@ -91,6 +89,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.AccountManagementApplication" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -101,7 +104,7 @@
       <option name="presentableId" value="Default" />
       <updated>1672208643810</updated>
       <workItem from="1672208647219" duration="2663000" />
-      <workItem from="1672248147914" duration="13088000" />
+      <workItem from="1672248147914" duration="14077000" />
     </task>
     <task id="LOCAL-00001" summary="started a container project to hold and learn different microservices patterns">
       <created>1672215621017</created>
@@ -131,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672303662241</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="adding spring cloud API Gateway app - with spring cloud gateway and spring cloud load balancer dependencies (spring reactive starter webflux, eureka client too!)">
+      <created>1672317772455</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1672317772455</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,6 +163,7 @@
     <MESSAGE value="adding UsersService and AccountManagementService Microservices as Eureka clients" />
     <MESSAGE value="Making the ports dynamic and assigning eureka instance id random/based on command line parameter" />
     <MESSAGE value="Adding code to view which port the application is running on - property &quot;local.server.port&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding code to view which port the application is running on - property &quot;local.server.port&quot;" />
+    <MESSAGE value="adding spring cloud API Gateway app - with spring cloud gateway and spring cloud load balancer dependencies (spring reactive starter webflux, eureka client too!)" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding spring cloud API Gateway app - with spring cloud gateway and spring cloud load balancer dependencies (spring reactive starter webflux, eureka client too!)" />
   </component>
 </project>

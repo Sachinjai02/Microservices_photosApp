@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f8b1a206-7fc7-4315-a6bc-cba59327284e" name="Changes" comment="adding UsersService and AccountManagementService Microservices as Eureka clients">
+    <list default="true" id="f8b1a206-7fc7-4315-a6bc-cba59327284e" name="Changes" comment="Making the ports dynamic and assigning eureka instance id random/based on command line parameter">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AccountManagementService/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/AccountManagementService/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AccountManagementService/src/main/java/com/study/accountmanagement/controller/AccountsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/AccountManagementService/src/main/java/com/study/accountmanagement/controller/AccountsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UsersService/src/main/java/com/study/usersservice/controllers/UsersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/UsersService/src/main/java/com/study/usersservice/controllers/UsersController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UsersService/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/UsersService/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -87,7 +88,7 @@
       <option name="presentableId" value="Default" />
       <updated>1672208643810</updated>
       <workItem from="1672208647219" duration="2663000" />
-      <workItem from="1672248147914" duration="9630000" />
+      <workItem from="1672248147914" duration="10566000" />
     </task>
     <task id="LOCAL-00001" summary="started a container project to hold and learn different microservices patterns">
       <created>1672215621017</created>
@@ -103,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672293194543</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Making the ports dynamic and assigning eureka instance id random/based on command line parameter">
+      <created>1672302716304</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1672302716305</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,6 +131,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="started a container project to hold and learn different microservices patterns" />
     <MESSAGE value="adding UsersService and AccountManagementService Microservices as Eureka clients" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding UsersService and AccountManagementService Microservices as Eureka clients" />
+    <MESSAGE value="Making the ports dynamic and assigning eureka instance id random/based on command line parameter" />
+    <option name="LAST_COMMIT_MESSAGE" value="Making the ports dynamic and assigning eureka instance id random/based on command line parameter" />
   </component>
 </project>

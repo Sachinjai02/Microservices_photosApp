@@ -4,17 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f8b1a206-7fc7-4315-a6bc-cba59327284e" name="Changes" comment="rewriting the url path">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UsersService/src/main/java/com/study/usersservice/config/ProjectWebSecurityConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UsersService/src/main/java/com/study/usersservice/dtos/CreateUserRequestDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UsersService/src/main/java/com/study/usersservice/models/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UsersService/src/main/java/com/study/usersservice/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UsersService/src/main/java/com/study/usersservice/services/UsersService.java" afterDir="false" />
+    <list default="true" id="f8b1a206-7fc7-4315-a6bc-cba59327284e" name="Changes" comment="adding jackson-dataformat-xml and produces/consumes on POSTMapping to support accepting and sending responses in xml format along with json">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UsersService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/UsersService/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UsersService/src/main/java/com/study/usersservice/controllers/UsersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/UsersService/src/main/java/com/study/usersservice/controllers/UsersController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UsersService/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/UsersService/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +107,7 @@
       <option name="presentableId" value="Default" />
       <updated>1672208643810</updated>
       <workItem from="1672208647219" duration="2663000" />
-      <workItem from="1672248147914" duration="34621000" />
+      <workItem from="1672248147914" duration="36381000" />
     </task>
     <task id="LOCAL-00001" summary="started a container project to hold and learn different microservices patterns">
       <created>1672215621017</created>
@@ -165,7 +158,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672319959457</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="adding code to create User and save it in h2 database">
+      <created>1672388985434</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1672388985434</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,6 +190,8 @@
     <MESSAGE value="adding spring cloud API Gateway app - with spring cloud gateway and spring cloud load balancer dependencies (spring reactive starter webflux, eureka client too!)" />
     <MESSAGE value="manually configuring routes in cloud API gateway" />
     <MESSAGE value="rewriting the url path" />
-    <option name="LAST_COMMIT_MESSAGE" value="rewriting the url path" />
+    <MESSAGE value="adding code to create User and save it in h2 database" />
+    <MESSAGE value="adding jackson-dataformat-xml and produces/consumes on POSTMapping to support accepting and sending responses in xml format along with json" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding jackson-dataformat-xml and produces/consumes on POSTMapping to support accepting and sending responses in xml format along with json" />
   </component>
 </project>
